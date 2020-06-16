@@ -1,0 +1,85 @@
+body,html {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  background: rgb(37, 36, 36);
+  color: azure;
+  height: 20vh;
+  padding: 10px 0;
+}
+ul,li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none; /* Убираем маркеры */
+}
+p {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 350;
+}
+
+#avatar {
+  width: 250px;
+  height: auto;
+  border:10px solid #202230;  
+}
+#avatar img {
+  border-radius: 10px;
+}
+#section_1 {
+  padding: 100px 0;
+  background: #282a3b;
+  color:#d8d8d8;
+  height: 110vh;
+}
+#section_2 {
+  padding: 100px 0;
+  height: 110vh;
+  color: azure;
+  background:#35374e;
+}
+#section_3 {
+  padding: 100px 0;
+  height: 110vh;
+  color: azure;
+  background:#414563;
+}
+.examples {
+  height: 80vh;
+  margin-top: 10px;
+}
+#social {
+  width: 250px;
+  background: #202230;
+  padding: 10px 10px;
+  font-size: 19px;
+}
+#social a {
+  color: #d8d8d8;
+}
+#social a:hover {
+  color: #d46a06;
+  cursor: pointer;
+  text-decoration: none;
+}
+#social li {
+  text-align: center;
+  margin: 5px 0;
+}
+#social i {
+  margin-right: 5px;
+}
+/* #section_3 i:hover {
+  color: #d46a06;
+  cursor: pointer;
+} */
+.button_example{
+  padding-top: 40vh;
+  text-align: center;
+}
+.button_example:hover{
+  color: #d46a06;
+  cursor: pointer;
+  background: rgba(40, 48, 94, 0.397);
+}
